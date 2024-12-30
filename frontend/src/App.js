@@ -6,12 +6,14 @@ import Product from './Components/pages/Product';
 import ShopCategory from './Components/pages/ShopCategory';
 import LoginSignup from './Components/pages/LoginSignup';
 import Cart from './Components/pages/Cart';
+import Hero from './Components/Assets/Hero/Hero'
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Navbar/>
+      <Hero/>
       <Routes>
       <Route path='/' element={<Shop/>} />
       <Route path='/men' element={<ShopCategory/>} category="men" />
