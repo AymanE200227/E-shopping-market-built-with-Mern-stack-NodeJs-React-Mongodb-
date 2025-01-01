@@ -1,6 +1,8 @@
 import React from 'react'
 import Handicon from "../Hand.png"
+import './Hero.css'
 import Hero from "../Hero.png"
+import Snowman from "../snowman.png"
 const hero = () => {
   return (
     <div className="container">
@@ -12,7 +14,7 @@ const hero = () => {
             <p>collections</p>
             <p>for everyone !</p>
             <div className="btn-latest">
-              <button>latests</button>
+            <button>LATESTS</button><span><img className='snowman' src={Snowman} alt="" /></span>
             </div>
         </div>
         <div className="right-side">
