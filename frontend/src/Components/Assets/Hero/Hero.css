@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 100vw    ; 
+    width: 100vw; 
     height: 100vh; 
     display: flex;
     background: linear-gradient(90deg, #cb94a4, white);
@@ -14,7 +14,7 @@
     font-family: "Poppins", serif;
 }
 .left-side p{
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 500;
 }
 .left-side h2{
@@ -39,6 +39,7 @@
     0% ,100%{
         opacity: .5;
         background-color: red;
+        color: white;
     }
     33% {
         opacity: 0.5;
@@ -77,14 +78,14 @@
 }
 
 .right-side img {
-    width: 40rem;
-    height: 40rem;
+    width: 50rem;
+    height: 50rem;
 }
 .left-side .snowman {
     width: 80px;
     height: 80px;
     display: inline;
-    margin-left: -50px;
+    margin-left: -80px;
     margin-bottom: -30px;
     position: absolute;
     left: 25%;
