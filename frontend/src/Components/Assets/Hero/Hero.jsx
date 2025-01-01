@@ -7,14 +7,17 @@ const hero = () => {
   return (
     <div className="container">
         <div className="left-side">
+            <div className="box">
             <h2>NEW ARRIVALS ONLY</h2>
             <div className="hand-icon">
+            <p>New</p>
                 <img src={Handicon} alt="" />
             </div>
-            <p>collections</p>
+            <p>Collections</p>
             <p>for everyone !</p>
             <div className="btn-latest">
-            <button>LATESTS</button><span><img className='snowman' src={Snowman} alt="" /></span>
+            <button>Latest Collections</button><span><img className='snowman' src={Snowman} alt="" /></span>
+            </div>
             </div>
         </div>
         <div className="right-side">
