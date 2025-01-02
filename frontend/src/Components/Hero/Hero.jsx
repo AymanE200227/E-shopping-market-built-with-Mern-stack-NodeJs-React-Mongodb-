@@ -1,8 +1,8 @@
 import React from 'react'
-import Handicon from "../Hand.png"
+import Handicon from "../Assets/Hand.png"
 import './Hero.css'
-import Hero from "../Hero.png"
-import Snowman from "../snowman.png"
+import Hero from "../Assets/Hero.png"
+import Snowman from "../Assets/snowman.png"
 const hero = () => {
   return (
     <div className="container">
