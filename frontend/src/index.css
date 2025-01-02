@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
   font-family: "Regular 400";
+  font-family: "Poppins", serif;
+
 }
 * {
   margin: 0;
