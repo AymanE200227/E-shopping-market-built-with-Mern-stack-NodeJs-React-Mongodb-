@@ -109,14 +109,14 @@ let products = [
     //     new_price: 49.99,
     //     old_price: 69.99,
     // },
-    {
-        id: 13,
-        name: "Product 13",
-        image: p2_8,
-        category: "Fashion",
-        new_price: 19.99,
-        old_price: 29.99,
-    },
+    // {
+    //     id: 13,
+    //     name: "Product 13",
+    //     image: p2_8,
+    //     category: "Fashion",
+    //     new_price: 19.99,
+    //     old_price: 29.99,
+    // },
     // {
     //     id: 14,
     //     name: "Product 14",

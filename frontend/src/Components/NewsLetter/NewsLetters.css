@@ -1,7 +1,7 @@
 .newsletters{
-    width: 65%;
     height: 40vh;
     display: flex;
+    border-radius: 30px;
     flex-direction: column;
     justify-content:center;
     align-items: center;

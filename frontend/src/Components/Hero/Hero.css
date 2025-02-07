@@ -78,16 +78,13 @@
 }
 
 .right-side img {
-    width: 50rem;
-    height: 50rem;
+    max-width: 40rem;
+    max-height: 40rem;
 }
 .left-side .snowman {
     width: 80px;
     height: 80px;
     display: inline;
-    margin-left: -80px;
-    margin-bottom: -30px;
-    position: absolute;
-    left: 25%;
+    margin-left: -40px;
     z-index: 1
 }

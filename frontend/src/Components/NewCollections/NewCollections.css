@@ -1,9 +1,11 @@
 .newcollections{
     display:flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 10px;
-    margin: 70px 0;
+    margin: 70px auto;
 }
 .newcollections h1{
     color: #171717;
@@ -11,7 +13,7 @@
     font-weight: 600;
 }
 .newcollections hr{
-    width: 200px;
+    width: 400px;
     height: 6px;
     border-radius: 10px;
     background: #252525;
@@ -19,10 +21,12 @@
 .collections{
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     border: rgba(220, 220, 220, 0.693) 2px solid;
     border-radius: 30px;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
 }
 .newcollections img{
