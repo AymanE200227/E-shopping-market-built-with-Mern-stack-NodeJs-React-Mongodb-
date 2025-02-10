@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
-import logo from '../Assets/logo.png'
-export const Navbar = () => {
+import logo from '../Assets/logo.png' 
+import F_logo from '../Assets/F_logo.png' 
+export const Navbar = () => { 
   const [menu, setMenu] =useState('shop');
   return (
     <div className="Navbar">
       <div className="Navbar-logo">
-        <img src={logo} alt="" />
+        <img src={F_logo} alt="" />
         <p>Friday Shop</p>
       </div>
           <ul className="nav-menu">
